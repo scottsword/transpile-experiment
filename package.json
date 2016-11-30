@@ -1,0 +1,25 @@
+{
+  "name": "transpile-experiment",
+  "version": "1.0.0",
+  "description": "Just a little benchmark test to try transpiling ES2015 on the fly with Bublé and executing it through php.",
+  "main": "rollup.config.js",
+  "scripts": {
+    "start": "node_modules/.bin/rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsword/transpile-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottsword/transpile-experiment/issues"
+  },
+  "homepage": "https://github.com/scottsword/transpile-experiment#readme",
+  "devDependencies": {
+    "buble": "^0.14.2",
+    "rollup": "^0.36.3",
+    "rollup-plugin-buble": "^0.14.0"
+  }
+}
