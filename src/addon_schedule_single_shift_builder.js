@@ -1,3 +1,1 @@
-export function SingleShiftBuilder(params) {
-    // past gist here.
-}
+// Paste gist here
